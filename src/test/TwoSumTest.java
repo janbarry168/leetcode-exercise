@@ -1,22 +1,24 @@
 package test;
 
 import problem.TwoSum;
-import solution.TwoSumImpl;
+import solution.TwoSumBruteForceImpl;
+import solution.TwoSumHashMapImpl;
 import utils.ResultUtils;
 
 public class TwoSumTest {
 
-    private static TwoSum twoSumImpl = new TwoSumImpl();
-
     public static void main(String[] args) {
-        test(new int[]{2, 7, 11, 15}, 9, new int[] {0, 1});
-        test(new int[]{3, 2, 4}, 6, new int[] {1, 2});
+        test(new TwoSumBruteForceImpl());
+        test(new TwoSumHashMapImpl());
     }
 
-    private static void test(int[] nums, int target, int[] expect) {
-        int[] result = twoSumImpl.twoSum(nums, target);
-        ResultUtils.printResult(result, expect);
-    }
+    private static void test(TwoSum twoSumImpl) {
+        int[] result;
+        result = twoSumImpl.twoSum(new int[]{2, 7, 11, 15}, 9);
+        ResultUtils.printResult(result, new int[]{0, 1});
 
+        result = twoSumImpl.twoSum(new int[]{3, 2, 4}, 6);
+        ResultUtils.printResult(result, new int[]{1, 2});
+    }
 
 }
