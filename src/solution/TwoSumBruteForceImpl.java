@@ -4,8 +4,8 @@ import problem.TwoSum;
 
 /**
  * Brute Force
- * time: O(n^2)
- * space: O(1)
+ * time: O(n^2) >> 98 ms, faster than 13.58%
+ * space: O(1) >> 45 MB, less than 56.50%
  */
 public class TwoSumBruteForceImpl implements TwoSum {
 

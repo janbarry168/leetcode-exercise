@@ -7,8 +7,8 @@ import java.util.Map;
 
 /**
  * HashMap
- * time: O(n)
- * space: O(n)
+ * time: O(n) >> 5 ms, faster than 16.32%
+ * space: O(n) >> 51.4 MB, less than 5.12%
  */
 public class TwoSumIIHashMapImpl implements TwoSumII {
 

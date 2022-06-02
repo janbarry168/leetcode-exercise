@@ -4,8 +4,8 @@ import problem.TwoSumII;
 
 /**
  * Two Pointer
- * time: O(n)
- * space: O(1)
+ * time: O(n) >> 2 ms, faster than 67.58%
+ * space: O(1) >> 50.1 MB, less than 38.67%
  */
 public class TwoSumIITwoPointerImpl implements TwoSumII {
 
