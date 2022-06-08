@@ -4,7 +4,7 @@ import problem.TwoSumIV;
 import tree.TreeNode;
 
 /**
- * time: O(n+Log(n)) >> 2 ms, faster than 98.74%
+ * time: O(n^2/2 + n/2) >> 2 ms, faster than 98.74%
  * space: O(1) >> 50 MB, less than 62.44%
  */
 public class TwoSumIVImpl implements TwoSumIV {

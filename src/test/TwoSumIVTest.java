@@ -1,6 +1,8 @@
 package test;
 
 import problem.TwoSumIV;
+import solution.TwoSumIVBfsImpl;
+import solution.TwoSumIVDfsImpl;
 import solution.TwoSumIVImpl;
 import tree.TreeUtils;
 import utils.ResultUtils;
@@ -9,6 +11,8 @@ public class TwoSumIVTest {
 
     public static void main(String[] args) {
         test(new TwoSumIVImpl());
+        test(new TwoSumIVDfsImpl());
+        test(new TwoSumIVBfsImpl());
     }
 
     private static void test(TwoSumIV twoSumIVImpl) {
