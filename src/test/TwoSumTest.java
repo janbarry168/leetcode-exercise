@@ -19,6 +19,7 @@ public class TwoSumTest {
 
         result = twoSumImpl.twoSum(new int[]{3, 2, 4}, 6);
         ResultUtils.printResult(result, new int[]{1, 2});
+
     }
 
 }

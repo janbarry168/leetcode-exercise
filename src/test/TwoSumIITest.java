@@ -15,9 +15,12 @@ public class TwoSumIITest {
     private static void test(TwoSumII twoSumIIImpl) {
         int[] result;
         result = twoSumIIImpl.twoSum(new int[]{2, 7, 11, 15}, 9);
-        ResultUtils.printResult(result, new int[]{0, 1});
+        ResultUtils.printResult(result, new int[]{1, 2});
 
-        result = twoSumIIImpl.twoSum(new int[]{3, 2, 4}, 6);
+        result = twoSumIIImpl.twoSum(new int[]{2, 3, 4}, 6);
+        ResultUtils.printResult(result, new int[]{1, 3});
+
+        result = twoSumIIImpl.twoSum(new int[]{-1, 0}, -1);
         ResultUtils.printResult(result, new int[]{1, 2});
     }
 

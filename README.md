@@ -20,8 +20,8 @@
 &#10004; 653 Two Sum IV - Input is a BST (Easy)<br/>
 
 ### Roman
-12 Integer to Roman (Medium)<br/>
-13 Roman to Integer (Easy)<br/>
+&#10004; 12 Integer to Roman (Medium)<br/>
+&#10004; 13 Roman to Integer (Easy)<br/>
 
 ### My Calendar
 729 My Calendar I (Medium)<br/>
