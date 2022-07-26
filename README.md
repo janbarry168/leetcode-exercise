@@ -12,7 +12,7 @@
 1932 Merge BSTs to Create Single BST (Hard)<br/>
 
 ### Palindrom
-9 Palindrome Number (Easy) <br/>
+&#10004; 9 Palindrome Number (Easy) <br/>
 
 ### Two Sum
 &#10004; 1 Two Sum (Easy) <br/>
