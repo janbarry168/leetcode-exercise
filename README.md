@@ -3,6 +3,7 @@
 
 ### Palindrom
 &#10004; 9 Palindrome Number (Easy) <br/>
+&#10004; 125 Valid Palindrome (Easy) <br/>
 
 ### Parentheses
 &#10004; 20 Valid Parentheses (East) <br/>
