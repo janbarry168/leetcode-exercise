@@ -3,8 +3,8 @@ package solution;
 import problem.ValidPalindrome;
 
 /**
- * time: O(n) >> 5 ms, faster than 78.18%
- * space: O(1) >> 43.8 MB, less than 55.17%
+ * time: O(n) >> 3 ms, faster than 98.95%
+ * space: O(1) >> 42.4 MB, less than 93.16%
  */
 public class ValidPalindromeTwoPointerImpl implements ValidPalindrome {
 
@@ -17,14 +17,12 @@ public class ValidPalindromeTwoPointerImpl implements ValidPalindrome {
         int tail = charArray.length - 1;
         while (head <= tail) {
             char headChar = charArray[head];
-            if (!Character.isLetterOrDigit(headChar)) {
-                head++;
-                continue;
+            while (!Character.isLetterOrDigit(headChar) && ++head <= tail) {
+                headChar = charArray[head];
             }
             char tailChar = charArray[tail];
-            if (!Character.isLetterOrDigit(tailChar)) {
-                tail--;
-                continue;
+            while (!Character.isLetterOrDigit(tailChar) && head <= --tail) {
+                tailChar = charArray[tail];
             }
 
             if (headChar == tailChar) {
